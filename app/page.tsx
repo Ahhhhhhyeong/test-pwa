@@ -83,9 +83,7 @@ export default function Home() {
         <p style={{ marginTop: '2rem' }}>설치 가능 이벤트 대기 중… (또는 이미 설치됨)</p>
       )}
 
-      <small style={{ marginTop: '3rem', opacity: 0.6 }}>
-        PC 브라우저에서 F12 → Lighthouse ‑ PWA 체크, 또는 휴대폰에서 직접 설치해보세요.
-      </small>
+      <small style={{ marginTop: '3rem', opacity: 0.6 }}>휴대폰에서 직접 설치해보세요.</small>
     </div>
   );
 }
